@@ -1,0 +1,11 @@
+@font-face {
+  font-family: "Inter", sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Inter:slnt@-10..0&display=swap");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Inter", sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,900&display=swap");
+  font-weight: 900;
+}
