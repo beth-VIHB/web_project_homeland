@@ -1,11 +1,15 @@
 @font-face {
-  font-family: "Inter", sans-serif;
-  src: url("https://fonts.googleapis.com/css2?family=Inter:slnt@-10..0&display=swap");
+  font-family: "Inter";
+  font-style: normal;
   font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/Inter-Regular.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: "Inter", sans-serif;
-  src: url("https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,900&display=swap");
+  font-family: "Inter";
+  font-style: normal;
   font-weight: 900;
+  font-display: swap;
+  src: url("./fonts/Inter-Black.woff2") format("woff2");
 }

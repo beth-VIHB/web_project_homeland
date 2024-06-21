@@ -1,0 +1,136 @@
+.intro {
+  width: 100%;
+  max-width: 985px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.intro__title {
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: left;
+  max-width: 830px;
+  font-weight: 900;
+  font-size: 2.8em;
+}
+
+.intro__quote {
+  text-align: left;
+  font-weight: 400;
+  font-size: 1.5em;
+  margin: 27px 0;
+  max-width: 738px;
+}
+
+.intro__quote-author {
+  text-align: end;
+  font-weight: 400;
+  font-size: 1.5em;
+  width: 732px;
+}
+
+.intro__text {
+  margin-top: 27px;
+  margin-bottom: 92px;
+  text-align: left;
+  font-weight: 400;
+  font-size: 1em;
+  max-width: 722px;
+}
+
+@media screen and (max-width: 1150px) {
+  .intro {
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .intro {
+    margin-left: 24px;
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  .intro {
+    margin-right: 24px;
+    margin-left: 24px;
+  }
+
+  .intro__title {
+    max-width: 707px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .intro {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .intro__quote-author {
+    margin-left: 24px;
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .intro {
+    margin-left: 24px;
+    max-width: 650px;
+  }
+}
+
+@media screen and (max-width: 685px) {
+  .intro {
+    max-width: 550px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .intro {
+    max-width: 500px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .intro {
+    max-width: 450px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .intro {
+    max-width: 400px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .intro {
+    max-width: 350px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .intro {
+    max-width: 300px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .intro {
+    margin-right: 16px;
+    margin-left: 16px;
+    max-width: 288px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .intro {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 288px;
+  }
+}
