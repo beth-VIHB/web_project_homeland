@@ -2,7 +2,7 @@
 @import url(../vendor/fonts.css);
 
 .page {
-  background-color: #000000;
+  background-color: #2a2c2f;
   font-family: "Inter", sans-serif;
   font-size: 16px;
   color: #f5f5f5;
@@ -16,75 +16,45 @@
 }
 
 .header__logo {
-}
-
-.header__logo-image {
   margin: auto;
-  display: flex;
-  justify-content: center;
-  width: 32px;
-  height: 32px;
-  margin-bottom: 22px;
+  width: 255px;
+  height: 69px;
   padding-top: 34px;
 }
 
-.header__logo-title {
-  width: 255px;
-  height: 15px;
-}
-
-@media screen and (max-width: 600px) {
-  .header__logo-image {
-    width: 24px;
-    height: 24px;
-  }
-
-  .header__logo-title {
-    width: 189px;
-    height: 10px;
+@media screen and (max-width: 450px) {
+  .header__logo {
+    width: 188px;
+    height: 52px;
     margin: auto;
     display: flex;
-    justify-content: center;
   }
 }
 
-.content {
-}
-
-.lead {
+.main {
   margin: auto;
   display: flex;
   flex-direction: column;
   max-width: 985px;
 }
 
-.lead__title {
+.main__title {
   margin: 91px auto 32px;
-  display: flex;
-  flex-direction: column;
+  text-align: center;
   max-width: 720px;
   font-weight: 900;
   font-size: 6em;
 }
 
-.lead__title-span {
-  display: flex;
-  justify-content: center;
-}
-
-.lead__subtitle {
+.main__subtitle {
   margin: auto;
+  text-align: center;
   font-size: 1.8em;
   line-height: 1.5;
   max-width: 720px;
 }
-/*
-.lead__subtitle-span {
-  display: flex;
-  justify-content: center;
-}
- */
-.lead__image {
+
+.main__image {
   filter: grayscale(100%);
   width: 100%;
   max-width: 985px;
@@ -92,20 +62,184 @@
 }
 
 @media screen and (max-width: 700px) {
-  .lead__title {
+  .main__title {
     font-size: 4.5em;
+    max-width: 530px;
   }
-  .lead__subtitle {
+  .main__subtitle {
     font-size: 1.5em;
+    max-width: 600px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .main__subtitle {
+    max-width: 500px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .main__title {
+    font-size: 2.5em;
+    max-width: 228px;
+  }
+  .main__subtitle {
+    font-size: 1em;
+    max-width: 288px;
+  }
+}
+
+.intro {
+  width: 100%;
+  max-width: 985px;
+  margin-left: 148px;
+}
+
+.intro__title {
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: left;
+  max-width: 830px;
+  font-weight: 900;
+  font-size: 2.8em;
+}
+
+.intro__quote {
+  text-align: left;
+  font-weight: 400;
+  font-size: 1.5em;
+  margin: 27px 0;
+  max-width: 738px;
+}
+
+.intro__quote-author {
+  text-align: right;
+  font-weight: 400;
+  font-size: 1.5em;
+  max-width: 732px;
+}
+
+.intro__text {
+  margin-top: 27px;
+  margin-bottom: 92px;
+  text-align: left;
+  font-weight: 400;
+  font-size: 1em;
+  max-width: 722px;
+}
+
+@media screen and (max-width: 1150px) {
+  .intro {
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .intro {
+    margin-left: 24px;
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  .intro {
+    margin-right: 24px;
+    margin-left: 24px;
+  }
+
+  .intro__title {
+    max-width: 707px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .intro {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .intro__quote-author {
+    margin-left: 24px;
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .intro {
+    margin-left: 24px;
+    max-width: 650px;
+  }
+}
+
+@media screen and (max-width: 685px) {
+  .intro {
+    max-width: 550px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .intro {
+    max-width: 500px;
   }
 }
 
 @media screen and (max-width: 550px) {
-  .lead__title {
-    font-size: 2.5em;
+  .intro {
+    max-width: 450px;
   }
-  .lead__subtitle {
-    font-size: 1em;
-    width: 100%;
+}
+
+@media screen and (max-width: 500px) {
+  .intro {
+    max-width: 400px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .intro {
+    max-width: 350px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .intro {
+    max-width: 300px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .intro {
+    margin-right: 16px;
+    margin-left: 16px;
+    max-width: 288px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .intro {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 288px;
+  }
+}
+
+.footer {
+  width: 100%;
+  max-width: 194px;
+  font-weight: 400;
+  font-size: 1em;
+  margin: auto;
+}
+
+.footer__signature {
+  margin-top: 0;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+@media screen and (max-width: 455px) {
+  .footer {
+    font-size: 0.87em;
+    margin: auto;
   }
 }
