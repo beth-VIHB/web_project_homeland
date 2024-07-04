@@ -40,6 +40,12 @@
   max-width: 722px;
 }
 
+@media screen and (max-width: 1150px) {
+  .intro__text {
+    margin-bottom: 64px;
+  }
+}
+
 @media screen and (max-width: 1050px) {
   .intro {
     margin-left: 24px;
@@ -94,6 +100,11 @@
   }
 }
 
+@media screen and (max-width: 640px) {
+  .intro__text {
+    margin-bottom: 64px;
+  }
+}
 @media screen and (max-width: 580px) {
   .intro {
     max-width: 450px;
