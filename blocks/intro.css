@@ -13,13 +13,13 @@
   text-align: left;
   max-width: 830px;
   font-weight: 900;
-  font-size: 3.37em;
+  font-size: 54px;
 }
 
 .intro__quote {
   text-align: left;
   font-weight: 400;
-  font-size: 1.5em;
+  font-size: 24px;
   margin: 27px 0;
   max-width: 738px;
 }
@@ -27,7 +27,7 @@
 .intro__quote-author {
   text-align: end;
   font-weight: 400;
-  font-size: 1.5em;
+  font-size: 24px;
   width: 732px;
 }
 
@@ -36,7 +36,7 @@
   margin-bottom: 118px;
   text-align: left;
   font-weight: 400;
-  font-size: 1em;
+  font-size: 16px;
   max-width: 722px;
 }
 
@@ -52,7 +52,7 @@
     max-width: 720px;
   }
   .intro__title {
-    font-size: 2.8em;
+    font-size: 45px;
   }
 }
 
@@ -121,7 +121,7 @@
   }
 
   .intro__title {
-    font-size: 2em;
+    font-size: 32px;
   }
 
   .intro__quote-author {

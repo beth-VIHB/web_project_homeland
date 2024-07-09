@@ -2,7 +2,7 @@
   width: 100%;
   max-width: 194px;
   font-weight: 400;
-  font-size: 1em;
+  font-size: 16px;
   margin: 18px auto 0;
   padding-bottom: 25px;
 }
@@ -15,7 +15,7 @@
 
 @media screen and (max-width: 455px) {
   .footer {
-    font-size: 0.87em;
+    font-size: 14px;
     margin: auto;
   }
 }
