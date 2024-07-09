@@ -3,14 +3,14 @@
   max-width: 984px;
 }
 
-.place {
+.places__grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 40px 48px;
   margin-bottom: 72px;
 }
 
-.place__name {
+.places__name {
   font-size: 72px;
   font-weight: 900;
   grid-column-start: 1;
@@ -18,7 +18,7 @@
   margin: 0;
 }
 
-.place__artist {
+.places__artist {
   font-size: 18px;
   font-weight: 400;
   margin: 0;
@@ -30,13 +30,13 @@
   display: flex;
   flex-direction: column;
 }
-.place__artist__span {
+.places__artist__span {
   font-size: 12px;
   font-weight: 400;
   line-height: 2.5;
 }
 
-.place__image {
+.places__image {
   width: 100%;
   max-width: 460px;
   margin-bottom: 96px;
@@ -46,7 +46,7 @@
   box-shadow: 20px 20px 7px #000;
 }
 
-.place__paragraph {
+.places__paragraph {
   font-size: 18px;
   text-align: left;
   grid-column-start: 2;
@@ -54,7 +54,7 @@
   grid-row-end: 4;
 }
 
-.place__button {
+.places__button {
   width: 289px;
   height: 48px;
   align-self: flex-end;
@@ -71,24 +71,24 @@
   grid-row-end: 3;
 }
 
-.place__image:hover {
+.places__image:hover {
   opacity: 0.5;
 }
 
-.place__button:hover {
+.places__button:hover {
   background-image: linear-gradient(to right, #02336b 50%, #002146 100%);
 }
 
 @media screen and (max-width: 1050px) {
-  .place__name {
+  .places__name {
     font-size: 42px;
   }
 
-  .place__paragraph {
+  .places__paragraph {
     font-size: 16px;
   }
 
-  .place {
+  .places__grid {
     column-gap: 28px;
   }
 }
@@ -98,7 +98,7 @@
     max-width: 720px;
   }
 
-  .place__image {
+  .places__image {
     box-shadow: 10px 10px 3px #000;
   }
 }
@@ -108,15 +108,15 @@
     margin: 0 16px;
   }
 
-  .place {
+  .places__grid {
     row-gap: 30px;
   }
 
-  .place__name {
+  .places__name {
     font-size: 32px;
   }
 
-  .place__button {
+  .places__button {
     width: 288px;
   }
 }
@@ -127,40 +127,40 @@
     margin: auto;
   }
 
-  .place {
+  .places__grid {
     display: flex;
     flex-direction: column;
     margin-bottom: 50px;
   }
 
-  .place__name {
+  .places__name {
     align-self: flex-start;
   }
 
-  .place__artist {
+  .places__artist {
     align-self: flex-start;
   }
 
-  .place__image {
+  .places__image {
     margin-bottom: 30px;
     box-shadow: none;
   }
 
-  .place__button {
+  .places__button {
     align-self: center;
   }
 }
 
 @media screen and (max-width: 350px) {
-  .place__name {
+  .places__name {
     margin: 0 16px;
   }
 
-  .place__artist {
+  .places__artist {
     margin: 0 16px;
   }
 
-  .place__paragraph {
+  .places__paragraph {
     margin: 0 16px;
   }
 }
