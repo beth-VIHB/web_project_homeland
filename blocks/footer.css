@@ -3,7 +3,8 @@
   max-width: 194px;
   font-weight: 400;
   font-size: 1em;
-  margin: auto;
+  margin: 18px auto 0;
+  padding-bottom: 25px;
 }
 
 .footer__signature {
